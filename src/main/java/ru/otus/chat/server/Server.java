@@ -26,7 +26,7 @@ public class Server {
     private final UserService userService = new UserService();
     private final RoomService roomService = new RoomService();
 
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1); // Пул для планировщика
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
     public Server(int port) {
         this.port = port;
