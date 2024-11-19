@@ -1,0 +1,32 @@
+2024-11-16 13:46:04 ERROR ClientHandler:171 - Socket closed
+2024-11-16 13:49:49 ERROR ClientHandler:171 - [Ljava.lang.StackTraceElement;@40c49e85
+2024-11-16 13:52:37 ERROR ClientHandler:171 - java.net.SocketException: Socket closed
+2024-11-16 13:56:58 ERROR ClientHandler:171 - java.net.SocketException: Socket closed
+2024-11-16 14:00:32 ERROR ClientHandler:171 - Ошибка: {}
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095) ~[?:?]
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208) ~[?:?]
+	at java.base/java.io.DataInputStream.readUnsignedShort(DataInputStream.java:341) ~[?:?]
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:575) ~[?:?]
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:550) ~[?:?]
+	at ru.otus.chat.server.ClientHandler.lambda$start$1(ClientHandler.java:100) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-11-16 14:25:23 ERROR ClientHandler:171 - Ошибка
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095) ~[?:?]
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208) ~[?:?]
+	at java.base/java.io.DataInputStream.readUnsignedShort(DataInputStream.java:341) ~[?:?]
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:575) ~[?:?]
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:550) ~[?:?]
+	at ru.otus.chat.server.ClientHandler.lambda$start$1(ClientHandler.java:100) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
